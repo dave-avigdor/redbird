@@ -19,7 +19,7 @@ async function sample1() {
   });
 
   proxy.register({
-    src: '/x',
+    src: 'rey.com',
     target: 'localhost:3000/test',
     onRequest: (req, res, target) => {},
   });
